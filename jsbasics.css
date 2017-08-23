@@ -1,0 +1,21 @@
+.full-img {
+	margin: 0;
+}
+displayed-img {
+	width: 100%;
+}
+.thumb-bar {
+	width: 80%;
+	margin: 0;
+}
+.thumb-bar div {
+	width: 20%;
+}
+.img {
+	width: 100%;
+	padding: -5;
+	margin: -5;
+	max-width: 20%;
+	display: inline-block;
+	overflow: hidden;
+}
