@@ -1,21 +1,22 @@
 .full-img {
 	margin: 0;
+	text-align: center;
 }
 displayed-img {
 	width: 100%;
 }
+.dark {
+	margin-bottom: 15px;
+}
 .thumb-bar {
-	width: 80%;
-	margin: 0;
-}
-.thumb-bar div {
-	width: 20%;
-}
-.img {
-	width: 100%;
-	padding: -5;
-	margin: -5;
-	max-width: 20%;
-	display: inline-block;
+	width: 90%;
+	position: absolute;
+	margin: 5px;
+	margin-left: 100px;
 	overflow: hidden;
+}
+div.thumb-bar div {
+	width: 19%;
+	margin: -5px;
+	display: inline-block;
 }
