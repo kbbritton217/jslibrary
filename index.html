@@ -8,17 +8,21 @@
 		<h1>Image gallery example</h1>
 
 		<div class="full-img">
-		  <img class="displayed-img" src="img/blackButterflies.jpeg" width="701" height="525px">
+		  <div class="displayed-img" id="lrgImg">
+		  	
+		  </div><img src="" width="701" height="525px">
 		  <div class="overlay"></div>
-		  <button class="dark">Darken</button>
+		  <button class="image" id="showImg" onClick="showImage()">Display</button>
+		  <button class="dark" id="btn" onClick="darken()">Darken</button>
 		</div>
 
 		<div class="thumb-bar">
-			<div class="img"><img src="img/blueButterflies.jpeg" width="150px" height="132px"></div>
-			<div class="img"><img src="img/frogButterfly.jpeg" width="150px" height="132px"></div>
-			<div class="img"><img src="img/pinkFlowerButterfly.jpeg" width="150px" height="132px"></div>
-			<div class="img"><img src="img/purpleFlowerButterfly.jpeg" width="150px" height="132px"></div>
-			<div class="img"><img src="img/redFlowerButterfly.jpeg" width="150px" height="132px"></div>
+			<div class="img" id="black"><img src="img/blackButterflies.jpeg" width="150px" height="132px"></div>
+			<div class="img" id="blue"><img src="img/blueButterflies.jpeg" width="150px" height="132px"></div>
+			<div class="img" id="frog"><img src="img/frogButterfly.jpeg" width="150px" height="132px"></div>
+			<div class="img" id="pink"><img src="img/pinkFlowerButterfly.jpeg" width="150px" height="132px"></div>
+			<div class="img" id="purple"><img src="img/purpleFlowerButterfly.jpeg" width="150px" height="132px"></div>
+			<div class="img" id="red"><img src="img/redFlowerButterfly.jpeg" width="150px" height="132px"></div>
 		</div>
 		<script type="text/javascript" href="jsbasics.js"></script>
 	</body>

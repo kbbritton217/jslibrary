@@ -16,7 +16,10 @@ displayed-img {
 	overflow: hidden;
 }
 div.thumb-bar div {
-	width: 19%;
+	width: 15%;
 	margin: -5px;
 	display: inline-block;
+}
+.darkenImg {
+	opacity: 0.8;
 }
