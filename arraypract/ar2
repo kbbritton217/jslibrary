@@ -1,0 +1,16 @@
+let names = [
+	"Kaylea", "Joshua", "Lunabelle"
+];
+
+let ages = [
+	27, 28, 1
+];
+
+for (l in names) {
+	for (h in ages) {
+		if (l === h) {
+			console.log(names[l] + " is " + ages[h] + ".");
+		}
+	}
+}
+

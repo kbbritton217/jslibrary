@@ -1,6 +1,0 @@
-BRONZE
-
-SILVER
-
-GOLD
-

@@ -1,4 +1,4 @@
-//BRONZE	SILVER		GOLD
+//BRONZE	SILVER	
 
 let person = {
 	firstName: "Kaylea",
