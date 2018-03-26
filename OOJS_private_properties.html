@@ -1,0 +1,35 @@
+<!Doctype HTML>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Object Oriented JavaScript</title>
+	</head>
+
+	<body>
+		<script type="text/javascript">
+			function SecretCode(){
+				var secretNum = 78;
+
+				this.guessNum = function(num){
+					if(num>78){
+						return "Lower";
+					}else if(num<78){
+						return "Higher";
+					}else{
+						return "You guessed it";
+					}
+				}
+			}
+
+			var secret = new SecretCode();
+
+			document.write("Value of secretNum : " + secret.secretNum + "<br />");
+			document.write("Is 70 the number : " + secret.guessNum(70) + "<br />");
+
+			SecretCode.prototype.getSecret = function(){
+				return this.secretNum;
+			}
+
+			document.write("The secret number is " + secret.getSecret() + "<br />");
+		</script>
+	</body>
